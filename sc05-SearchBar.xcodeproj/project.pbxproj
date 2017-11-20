@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F58AD9131FBD077200974159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58AD9121FBD077200974159 /* AppDelegate.m */; };
-		F58AD9161FBD077200974159 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58AD9151FBD077200974159 /* ViewController.m */; };
 		F58AD9191FBD077200974159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58AD9171FBD077200974159 /* Main.storyboard */; };
 		F58AD91B1FBD077200974159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58AD91A1FBD077200974159 /* Assets.xcassets */; };
 		F58AD91E1FBD077200974159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58AD91C1FBD077200974159 /* LaunchScreen.storyboard */; };
 		F58AD9211FBD077200974159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58AD9201FBD077200974159 /* main.m */; };
+		F58AD9291FBD07ED00974159 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58AD9281FBD07ED00974159 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F58AD90E1FBD077200974159 /* sc05-SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sc05-SearchBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58AD9111FBD077200974159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F58AD9121FBD077200974159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F58AD9141FBD077200974159 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F58AD9151FBD077200974159 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F58AD9181FBD077200974159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F58AD91A1FBD077200974159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58AD91D1FBD077200974159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58AD91F1FBD077200974159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F58AD9201FBD077200974159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58AD9271FBD07ED00974159 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		F58AD9281FBD07ED00974159 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				F58AD9111FBD077200974159 /* AppDelegate.h */,
 				F58AD9121FBD077200974159 /* AppDelegate.m */,
-				F58AD9141FBD077200974159 /* ViewController.h */,
-				F58AD9151FBD077200974159 /* ViewController.m */,
+				F58AD9271FBD07ED00974159 /* MyTableViewController.h */,
+				F58AD9281FBD07ED00974159 /* MyTableViewController.m */,
 				F58AD9171FBD077200974159 /* Main.storyboard */,
 				F58AD91A1FBD077200974159 /* Assets.xcassets */,
 				F58AD91C1FBD077200974159 /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58AD9161FBD077200974159 /* ViewController.m in Sources */,
+				F58AD9291FBD07ED00974159 /* MyTableViewController.m in Sources */,
 				F58AD9211FBD077200974159 /* main.m in Sources */,
 				F58AD9131FBD077200974159 /* AppDelegate.m in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyTableViewController.h
 //  sc05-SearchBar
 //
 //  Created by Asdruval De Leon on 11/15/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyTableViewController : UITableViewController
 
 @end
-
